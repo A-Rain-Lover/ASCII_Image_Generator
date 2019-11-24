@@ -10,14 +10,14 @@ import numpy as np
 import argparse as ap
 
 parser = ap.ArgumentParser()
-parser.add_argument("_in",type=str,help="Path to the input image file.")
-parser.add_argument("_out",type=str,help="Path where to put the output file.")
+parser.add_argument("input",type=str,help="Path to the input image file.")
+parser.add_argument("output",type=str,help="Path where to put the output file.")
 args = parser.parse_args()
 
 
-img = imread(args._in,as_gray=True)
+img = imread(args.input,as_gray=True)
 
-txt = open(args._out,'w+')
+txt = open(args.output,'w+')
 
 h = len(img)
 w = len(img[0])
