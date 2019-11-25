@@ -78,7 +78,7 @@ example
                                                                                                                                                 
 
 
-
+```
 usage: main.py [-h] input output
 
 positional arguments:
@@ -87,3 +87,4 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
+```
