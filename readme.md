@@ -2,7 +2,7 @@
 
 The program takes in the path of an image, and then transforms it to text;
 
-example
+##example
 
                                                                                                                                                 
                                                                                                                                                 
