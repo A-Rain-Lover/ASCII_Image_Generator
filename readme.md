@@ -1,4 +1,4 @@
-# ASCII image generator
+# ASCII art generator
 The program takes in the path of an image, and then transforms it into ASCII text;
 
 # Dependencies 
